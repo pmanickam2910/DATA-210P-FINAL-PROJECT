@@ -1,6 +1,6 @@
 # 🔋 Energy Consumption Prediction
 ### A Machine Learning Approach to Building Energy Forecasting
-**Statistical Inference | Final Project | March 2026**
+
 
 ---
 
