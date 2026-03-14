@@ -11,7 +11,7 @@
 
 This project predicts hourly building energy consumption using machine learning. Three models were implemented and compared — **Linear Regression**, **Random Forest**, and **XGBoost** — using a dataset of 1,000 hourly observations across environmental, structural, and operational building features.
 
-**Best Performing Model:** XGBoost (Test R² = 0.54, MAE = 4.41, RMSE = 5.46)
+**Best Performing Model:** XGBoost (Test R² = 0.54, MAE = 4.42, RMSE = 5.48)
 
 ---
 
