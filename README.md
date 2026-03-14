@@ -191,11 +191,11 @@ for name, preds in models.items():
 
 ## 📊 Results
 
-| Model | CV R² | Test R² | MAE | RMSE |
+| Model | CV R² | Test R² | MAE | RMSE | MSE
 |---|---|---|---|---|
-| Linear Regression | 0.62 | 0.33 | 4.08 | 5.12 |
-| Random Forest | 0.54 | 0.23 | 4.42 | 5.46 |
-| **XGBoost** | **0.54** | **0.54** | **4.41** | **5.46** |
+| Linear Regression | 0.62 | 0.33 | 4.10 | 5.12 | 26.28
+| Random Forest | 0.54 | 0.25 | 4.35 | 5.45 | 29.78
+| **XGBoost** | **0.55** | **0.54** | **4.42** | **5.48** | 30.06
 
 > **Note:** The dataset is synthetically generated, evidenced by uniform feature distributions and the absence of natural temporal patterns. The theoretical R² ceiling without explicit time-series modelling is approximately 0.6.
 
@@ -256,6 +256,10 @@ plt.show()
 
 ## 📄 References
 
-- Breiman, L. (2001). Random forests. *Machine Learning, 45*(1), 5–32.
-- Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *Proceedings of the 22nd ACM SIGKDD*, 785–794.
-- Pérez-Lombard, L., Ortiz, J., & Pout, C. (2008). A review on buildings energy consumption information. *Energy and Buildings, 40*(3), 394–398.
+1. Mosavi, A., & Bahmani, A. (2019). Energy consumption prediction using machine learning; a review. Preprints. https://doi.org/10.20944/preprints201903.0131.v1.
+
+2.Pham, A.-D., Ngo, N.-T., Truong, T. T. H., Huynh, N.-T., & Truong, N.-S. (2020). Predicting energy consumption in multiple buildings using machine learning for improving energy efficiency and sustainability. Journal of Cleaner Production, 260, 121082. https://doi.org/10.1016/j.jclepro.2020.121082.
+
+3.García-Martín, E., Rodrigues, C. F., Riley, G., & Grahn, H. (2019). Estimation of energy consumption in machine learning. Journal of Parallel and Distributed Computing, 134, 75–88. https://doi.org/10.1016/j.jpdc.2019.07.007.
+
+4.Mhlanga, D. (2023). Artificial intelligence and machine learning for energy consumption and production in emerging markets: A review. Energies, 16(2), 745. https://doi.org/10.3390/en16020745
